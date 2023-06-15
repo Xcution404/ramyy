@@ -1,0 +1,66 @@
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) , url(../images/2\ \(3\).jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-nav{
+    list-style: none;
+    display: flex;
+}
+.footer-nav li{
+    margin-right: 30px;
+}
+.footer-nav li a:link{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+footer{
+    background-color: #333;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+footer{
+    padding: 40px 0px;
+}
+footer{
+    background-color: #333;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+.main-nav , .footer-nav , .social-nav{
+    list-style: none;
+    display: flex;
+
+}
+.main-nav li , .footer-nav li , .social-nav li{
+    margin-right: 30px;
+}
+.main-nav li a:link , .footer-nav li a:link , .social-nav li a:link{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.main-nav li a:link,.main-nav li a:visited{
+    margin-right: 30px;
+    color: #fff;
+}
+.main-nav li a:hover,.main-nav li a:active , .footer-nav li a:hover , .social-nav li a:hover , .footer-nav li a:active , .social-nav li a:active{
+    color: red;
+    text-decoration: underline;
+}
